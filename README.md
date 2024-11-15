@@ -1,10 +1,10 @@
-# Mutant Trumps
+# The (Extremely Wicked and Badman) Stunts, Gags and Hijinks of George and Fred
 
 <p align="center">
   <img src="./logo.png" width="300">
 </p>
 
-Mutant Trumps is a card game built with **React.js** and **JavaScript**, powered by **Vite**. In this game, Player 1 competes against the computer in a battle of mutant attributes. The goal is to strategically choose the attribute with the highest value to win the opponent's card. The game ends when one player collects all the cards.
+George and Fred is a card game built with **React.js** and **JavaScript**, powered by **Vite**. In this game, Player 1 competes against the computer in a battle of attributes. The goal is to strategically choose the attribute with the highest value to win the opponent's card. The game ends when one player collects all the cards.
 
 ## Table of Contents
 
@@ -17,9 +17,9 @@ Mutant Trumps is a card game built with **React.js** and **JavaScript**, powered
 ## Features
 
 - Player vs. Computer gameplay.
-- Ability to choose the size of the deck from three options before starting.
+- Ability to choose the size of the deck before starting.
 - Simple and engaging card-based attribute comparison mechanics.
-- Fun, cartoonish mutant characters with unique attributes.
+- Fun, cartoonish characters with unique attributes.
 
 ## Installation
 
@@ -27,12 +27,12 @@ To get started with Mutant Trumps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mutant-trumps.git
+   git clone https://github.com/your-username/george-and-fred.git
    ```
    
 2. Navigate to the client directory:
   ```bash
-  cd mutant-trumps/client
+  cd george-and-fred/client
   ```
 3. Install dependencies
   ```bash
@@ -48,7 +48,7 @@ The app will start on http://localhost:5173 (or the next available port if 5173 
 ## How to Play
 Choose the size of the deck from the available options.
 
-Player 1 goes first. On your turn, select an attribute (e.g., Size, Strength, or Intelligence) that you believe is higher than the computer's card for that attribute.
+Player 1 goes first. On your turn, select an attribute that you believe is higher than the computer's card for that attribute.
 
 If your chosen attribute is higher than the computer's, you win the round and take the computer's card.
 
@@ -59,7 +59,7 @@ Continue playing until one player has all the cards in the deck, winning the gam
 ## Game Rules
 Turn-Based: Player 1 and the computer alternate turns.
 
-Attribute Comparison: Each mutant card has three main attributes (e.g., Size, Strength, and Intelligence). The goal is to choose an attribute that you believe is stronger than the opponent’s.
+Attribute Comparison: Each card has five attributes. The goal is to choose an attribute that you believe is stronger than the opponent’s.
 
 Winning the Game: A player wins by taking all the other player’s cards.
 

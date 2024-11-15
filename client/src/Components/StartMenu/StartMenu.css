@@ -1,10 +1,11 @@
 .start-menu-container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content:center;
   align-items: center;
   height: 100%;
   text-align: center;
+  position: relative;
 }
 
 .start-menu-button {
@@ -17,4 +18,39 @@
 .start-menu-button:hover {
   color: greenyellow;
   cursor: pointer;
+}
+
+.logo {
+  position: relative;
+  display: flex; /* Optional: align content easily */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align child elements */
+  justify-content: center;
+}
+
+.logo img {
+  width: 400px;
+}
+
+@media (max-width: 600px) {
+  .logo img {
+    width: 100vw;
+  }
+}
+
+.game-choices {
+  position: absolute;
+}
+
+.rotating-image {
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
