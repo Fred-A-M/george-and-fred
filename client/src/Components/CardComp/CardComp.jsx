@@ -28,7 +28,7 @@ export default function CardComp ({card, compareCards, comparedAttribute, active
     <>
     <div className={`card-body`}>
       <div className='card-background'>
-        <img src='./CardBackground.jpeg' alt="logo"/>
+        <img src='./collage2.png' alt="logo"/>
       </div>
       <div className='card-content'>
         <div className={`trump-picture`}>

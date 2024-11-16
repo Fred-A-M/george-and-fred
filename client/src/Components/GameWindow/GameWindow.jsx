@@ -64,10 +64,10 @@ export default function GameWindow ({numCards, changeState}) {
   useEffect(() => {
     if (decksInitialised) {
       if (playerOneDeck.length === 0) {
-        setWinner('CPU Wins');
+        setWinner('Peak Ting, \n CPU’s had your fookin’ \n pants down');
       }
       if (playerTwoDeck.length === 0) {
-        setWinner('Player One Wins')
+        setWinner('Extremely calm, \n you won')
       }
     }
   }, [playerOneDeck, playerTwoDeck, decksInitialised])
@@ -131,7 +131,7 @@ export default function GameWindow ({numCards, changeState}) {
     <>
     <div className='game-window' >
       {!winner && <div className='game-logo'>
-        <img src="./logo.png" alt="logo" width={100} onClick={() => changeState('start')} />
+        <img src="./logoCircle.png" alt="logo" width={120} onClick={() => changeState('start')} />
       </div>}
       {playerAnnouncement && activePlayer && <div className="drifting-text">Player One&apos;s Turn</div>}
       {playerAnnouncement && !activePlayer && <div className="drifting-text">CPU&apos;s Turn</div>}

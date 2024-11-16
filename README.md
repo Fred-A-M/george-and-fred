@@ -23,7 +23,7 @@ George and Fred is a card game built with **React.js** and **JavaScript**, power
 
 ## Installation
 
-To get started with Mutant Trumps:
+To get started:
 
 1. Clone the repository:
    ```bash

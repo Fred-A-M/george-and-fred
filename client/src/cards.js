@@ -1,134 +1,200 @@
 export const cards = [
   {
-    name: 'Q-Tip Man',
+    name: 'Christmas Cracker',
     attributes: {
-      size: 58,
-      strength: 46,
-      intelligence: 63,
-      speed: 42,
-      terror: 30,
+      humour: 77,
+      depravity: 56,
+      legs: 63,
+      wholesome: 40,
+      stature: 60,
     },
-    imageURL: './characters/QtipMan.jpeg'
+    imageURL: './characters/Balter.jpeg'
   },
   {
-    name: 'Jelly Grandma',
+    name: 'Bananas',
     attributes: {
-      size: 50,
-      strength: 43,
-      intelligence: 65,
-      speed: 40,
-      terror: 28,
+      humour: 69,
+      depravity: 32,
+      legs: 58,
+      wholesome: 50,
+      stature: 30,
     },
-    imageURL: './characters/JellyGrandma.jpeg'
+    imageURL: './characters/Bananas.jpeg'
   },
   {
-    name: 'Athletic Lapwing',
+    name: `Buggin' It`,
     attributes: {
-      size: 42,
-      strength: 41,
-      intelligence: 60,
-      speed: 65,
-      terror: 33,
+      humour: 71,
+      depravity: 41,
+      legs: 65,
+      wholesome: 38,
+      stature: 55,
     },
-    imageURL: './characters/AthleticLapwing.jpeg'
+    imageURL: './characters/Blackberry.jpeg'
   },
   {
-    name: 'Broccoli Scot',
+    name: 'Dacia Duster',
     attributes: {
-      size: 51,
-      strength: 61,
-      intelligence: 59,
-      speed: 44,
-      terror: 45,
+      humour: 72,
+      depravity: 40,
+      legs: 59,
+      wholesome: 44,
+      stature: 56,
     },
-    imageURL: './characters/BroccoliScot.jpeg'
+    imageURL: './characters/Duster.jpeg'
   },
   {
-    name: 'Giant Preacher',
+    name: 'Glory',
     attributes: {
-      size: 65,
-      strength: 47,
-      intelligence: 21,
-      speed: 37,
-      terror: 42,
+      humour: 75,
+      depravity: 47,
+      legs: 61,
+      wholesome: 41,
+      stature: 62,
     },
-    imageURL: './characters/GiantPreacher.jpeg'
+    imageURL: './characters/Glory.jpeg'
   },
   {
-    name: 'Pub Vampire',
+    name: 'EEEEEE',
     attributes: {
-      size: 62,
-      strength: 48,
-      intelligence: 64,
-      speed: 35,
-      terror: 60,
+      humour: 79,
+      depravity: 53,
+      legs: 75,
+      wholesome: 45,
+      stature: 68,
     },
-    imageURL: './characters/PubVamp.jpeg'
+    imageURL: './characters/Eeeeee.jpeg'
   },
   {
-    name: 'Rat Lady',
+    name: 'Ex Machina Flat',
     attributes: {
-      size: 54,
-      strength: 45,
-      intelligence: 66,
-      speed: 47,
-      terror: 58,
+      humour: 54,
+      depravity: 50,
+      legs: 48,
+      wholesome: 47,
+      stature: 43,
     },
-    imageURL: './characters/RatLady.jpeg'
+    imageURL: './characters/ExMachina.jpeg'
   },
   {
-    name: 'Eyelash',
+    name: 'Glasto Break In',
     attributes: {
-      size: 10,
-      strength: 49,
-      intelligence: 28,
-      speed: 48,
-      terror: 59,
+      humour: 48,
+      depravity: 54,
+      legs: 70,
+      wholesome: 48,
+      stature: 70,
     },
-    imageURL: './characters/Eyelash.jpeg'
+    imageURL: './characters/Glasto.jpeg'
   },
   {
-    name: 'Netflix Fiend',
+    name: 'J-Hawks Encounter',
     attributes: {
-      size: 46,
-      strength: 19,
-      intelligence: 57,
-      speed: 36,
-      terror: 43,
+      humour: 46,
+      depravity: 51,
+      legs: 62,
+      wholesome: 49,
+      stature: 58,
     },
-    imageURL: './characters/NetflixFiend.jpeg'
+    imageURL: './characters/JHawks.jpeg'
   },
   {
-    name: 'Big Benny',
+    name: `Jill's Flat`,
     attributes: {
-      size: 70,
-      strength: 51,
-      intelligence: 18,
-      speed: 38,
-      terror: 32,
+      humour: 42,
+      depravity: 60,
+      legs: 57,
+      wholesome: 32,
+      stature: 41,
     },
-    imageURL: './characters/BigBenny.jpeg'
+    imageURL: './characters/Jills.jpeg'
   },
   {
-    name: 'Chimney Penguin',
+    name: `Marcus' Flat`,
     attributes: {
-      size: 30,
-      strength: 44,
-      intelligence: 61,
-      speed: 49,
-      terror: 35,
+      humour: 38,
+      depravity: 68,
+      legs: 51,
+      wholesome: 15,
+      stature: 35,
     },
-    imageURL: './characters/ChimneyPenguin.jpeg'
+    imageURL: './characters/Marcus.jpeg'
   },
   {
-    name: 'Accountant Eel',
+    name: 'Marmite',
     attributes: {
-      size: 48,
-      strength: 40,
-      intelligence: 68,
-      speed: 46,
-      terror: 37,
+      humour: 64,
+      depravity: 46,
+      legs: 60,
+      wholesome: 39,
+      stature: 40,
     },
-    imageURL: './characters/AccountantEel.jpeg'
+    imageURL: './characters/Marmite.jpeg'
+  },
+  {
+    name: 'Peak 4 U',
+    attributes: {
+      humour: 65,
+      depravity: 38,
+      legs: 67,
+      wholesome: 46,
+      stature: 57,
+    },
+    imageURL: './characters/Peak4U.jpeg'
+  },
+  {
+    name: `Start Flappin'`,
+    attributes: {
+      humour: 67,
+      depravity: 37,
+      legs: 55,
+      wholesome: 52,
+      stature: 48,
+    },
+    imageURL: './characters/Pigeon.jpeg'
+  },
+  {
+    name: 'Poo Ting',
+    attributes: {
+      humour: 66,
+      depravity: 55,
+      legs: 64,
+      wholesome: 53,
+      stature: 59,
+    },
+    imageURL: './characters/PooTing.jpeg'
+  },
+  {
+    name: 'Bibbedy Bomb',
+    attributes: {
+      humour: 68,
+      depravity: 39,
+      legs: 56,
+      wholesome: 51,
+      stature: 50,
+    },
+    imageURL: './characters/Shop.jpeg'
+  },
+  {
+    name: 'Introduction',
+    attributes: {
+      humour: 41,
+      depravity: 57,
+      legs: 52,
+      wholesome: 65,
+      stature: 69,
+    },
+    imageURL: './characters/StoneCircle.jpeg'
+  },
+  {
+    name: 'Toilet Toss',
+    attributes: {
+      humour: 63,
+      depravity: 62,
+      legs: 53,
+      wholesome: 43,
+      stature: 54,
+    },
+    imageURL: './characters/Toilet.jpeg'
   },
 ];
