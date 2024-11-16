@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  margin-top: 40vh;
+  height: 100%;
 }
 
 .end-menu-button {
@@ -21,7 +21,15 @@
 }
 
 .winner-text {
+  text-align: center;
   font-size: 50px;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 600px) {
+  .winner-text {
+    font-size: 40px;
+  }
 }
 
 @keyframes flash {
