@@ -1,7 +1,7 @@
 # The (Extremely Wicked and Badman) Stunts, Gags and Hijinks of George and Fred
 
 <p align="center">
-  <img src="./client/public/logo.png" width="300">
+  <img src="./client/public/TextLogoBlack.png" width="300">
 </p>
 
 George and Fred is a card game built with **React.js** and **JavaScript**, powered by **Vite**. In this game, Player 1 competes against the computer in a battle of attributes. The goal is to strategically choose the attribute with the highest value to win the opponent's card. The game ends when one player collects all the cards.
